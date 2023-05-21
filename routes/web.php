@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+
 use App\Http\Controllers\CEOController;
 use App\Http\Controllers\PayController;
 use App\Http\Controllers\HomeController;
@@ -13,19 +14,9 @@ use App\Http\Controllers\HotelBookingController;
 use App\Http\Controllers\RefundPolicyController;
 use App\Http\Controllers\VisaProcessingController;
 
-/*
-|--------------------------------------------------------------------------
-| Web Routes
-|--------------------------------------------------------------------------
-|
-| Here is where you can register web routes for your application. These
-| routes are loaded by the RouteServiceProvider and all of them will
-| be assigned to the "web" middleware group. Make something great!
-|
-*/
 
 
-Route::get('/home', [HomeController::class, 'index'])->name('home');
+Route::get('/', [HomeController::class, 'index'])->name('home');
 Route::get('ceo',  [CEOController::class, 'index'])->name('ceo');
 Route::get('refund', [RefundPolicyController::class, 'index'])->name('refund');
 Route::get('condition', [TermsController::class, 'index'])->name('condition');
