@@ -23,7 +23,7 @@ class ContactRequest extends FormRequest
     {
         return [
             'name'    => 'required|string',
-            'email'   => 'nullable|email'void,
+            'email'   => 'nullable|email',
             'phone'   => 'required|numeric|regex:/^([0-9\s\-\+\(\)]*)$/|min:11',
             'message' => 'required',
         ];

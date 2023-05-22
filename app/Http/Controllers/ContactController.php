@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Models\Contact;
 use App\Http\Requests\ContactRequest;
+use Illuminate\Support\Facades\Session;
 
 class ContactController extends Controller
 {
@@ -28,6 +29,7 @@ class ContactController extends Controller
         $contact =  $request->all();
         Contact::create($contact);
 
+        Session::flash('success', "Contact successfully done");
         return back();
     }
 }

@@ -66,19 +66,45 @@
       </div>
 
       <div class="col-lg-5 col-12 mx-auto">
+        @if(session('success'))
+        <div class="alert alert-success">
+          {!! session('success') !!}
+        </div>
+        @endif
 
         <form method="post" action="{{ route('contact-form') }}" role="form" class="custom-form contact-form">
           @csrf
           <h2 class="text-center">Contact Us</h2>
-          <label for="">Name</label>
-          <input type="text" name="name" id="name" class="form-control" placeholder="Name" />
-          <label for="">E-Mail</label>
-          <input type="email" name="email" id="email" class="form-control" placeholder="E-Mail" />
-          <label for="">Phone</label>
-          <input type="text" name="phone" id="phone" class="form-control" placeholder="Phone" />
+          <div class="form-group">
+            <label for="">Name</label>
+            <input type="text" name="name" id="name" class="form-control @error('name') is-invalid @enderror" value="{{ old('name') }}" placeholder="Name" />
+            @error('name')
+            <small class="text-danger">{{ $message }}</small>
+            @enderror
+          </div>
+          <div class="form-group">
+            <label for="">E-Mail</label>
+            <input type="email" name="email" id="email" class="form-control  @error('email') is-invalid @enderror" value="{{ old('email') }}" placeholder="E-Mail" />
+            @error('email')
+            <small class="text-danger">{{ $message }}</small>
+            @enderror
+          </div>
+          <div class="form-group">
+            <label for="">Phone</label>
+            <input type="text" name="phone" id="phone" class="form-control  @error('phone') is-invalid @enderror" value="{{ old('phone') }}" placeholder="Phone" />
+            @error('phone')
+            <small class="text-danger">{{ $message }}</small>
+            @enderror
+          </div>
+          <div class="form-group">
+            <textarea name="message" rows="2" class="form-control  @error('message') is-invalid @enderror" id="message" placeholder="What can we help you?">
 
-          <textarea name="message" rows="2" class="form-control" id="message" placeholder="What can we help you?"></textarea>
-          <button type="submit" class="form-control">Send Message</button>
+            </textarea>
+            @error('message')
+            <small class="text-danger">{{ $message }}</small>
+            @enderror
+          </div>
+          <button type="submit" class="form-control ">Send Message</button>
         </form>
 
       </div>
