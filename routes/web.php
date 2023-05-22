@@ -26,4 +26,6 @@ Route::get('rail', [RailTicketController::class, 'index'])->name('rail_ticket');
 Route::get('visa_processing', [VisaProcessingController::class, 'index'])->name('visa_processing');
 Route::get('hotel_booking', [HotelBookingController::class, 'index'])->name('hotel_booking');
 Route::get('gallary', [GallaryController::class, 'index'])->name('gallary');
+
 Route::get('contact', [ContactController::class, 'index'])->name('contact');
+Route::post('contact', [ContactController::class, 'contactForm'])->name('contact-form');
