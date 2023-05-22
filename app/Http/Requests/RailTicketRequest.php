@@ -4,7 +4,7 @@ namespace App\Http\Requests;
 
 use Illuminate\Foundation\Http\FormRequest;
 
-class HostelBookingRequest extends FormRequest
+class RailTicketRequest extends FormRequest
 {
     /**
      * Determine if the user is authorized to make this request.
@@ -22,14 +22,15 @@ class HostelBookingRequest extends FormRequest
     public function rules(): array
     {
         return [
-            'location'  => 'required',
-            'room'      => 'nullable',
-            'phone'     => 'required|numeric|regex:/^([0-9\s\-\+\(\)]*)$/|min:11',
-            'guest'     => 'nullable',
-            'message'   => 'nullable',
-            'email'     => 'nullable',
-            'check_out' => 'required|date',
-            'check_in'  => 'required|date',
+            'leaving'       => 'required',
+            'destination'   => 'required',
+            'phone'         => 'required|numeric|regex:/^([0-9\s\-\+\(\)]*)$/|min:11',
+            'message'       => 'nullable',
+            'email'         => 'nullable',
+            'date'          => 'required',
+            'adult'         => 'nullable',
+            'child'         => 'nullable',
+            'infant'        => 'nullable',
         ];
     }
 }

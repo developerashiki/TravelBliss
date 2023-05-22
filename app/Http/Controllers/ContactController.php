@@ -29,7 +29,7 @@ class ContactController extends Controller
         $contact =  $request->all();
         Contact::create($contact);
 
-        Session::flash('success', "Contact successfully done");
+        Session::flash('success', "Congratulations! Contact successfully done.");
         return back();
     }
 }

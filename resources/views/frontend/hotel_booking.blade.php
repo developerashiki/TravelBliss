@@ -75,7 +75,7 @@
           <div class="row">
             <div class="col-lg-6 col-md-6 col-12">
               <label for="input">Check In</label>
-              <input type="date" name="check_in" id="leaving" class="form-control" />
+              <input type="date" name="check_in" value="{{ old('check_in') }}" id="check_in" class="form-control" />
               @error('check_in')
               <small class="text-danger">{{ $message }}</small>
               @enderror
@@ -83,7 +83,7 @@
 
             <div class="col-lg-6 col-md-6 col-12">
               <label for="input">Check Out</label>
-              <input type="date" name="check_out" id="leaving" class="form-control" placeholder="phone" />
+              <input type="date" name="check_out" value="{{ old('check_out') }}" id="check_out" class="form-control" placeholder="phone" />
               @error('check_out')
               <small class="text-danger">{{ $message }}</small>
               @enderror
@@ -97,7 +97,7 @@
 
             <div class="col-lg-6 col-md-6 col-12">
               <label for="input">Phone</label>
-              <input type="text" name="phone" id="leaving" class="form-control" placeholder="phone" />
+              <input type="text" name="phone" id="phone" value="{{ old('phone') }}" class="form-control" placeholder="phone" />
               @error('phone')
               <small class="text-danger">{{ $message }}</small>
               @enderror

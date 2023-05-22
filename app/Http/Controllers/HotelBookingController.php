@@ -28,7 +28,7 @@ class HotelBookingController extends Controller
         $hotelBooking =  $request->all();
         HostelBooking::create($hotelBooking);
 
-        Session::flash('success', "Hostel Booking successfully done");
+        Session::flash('success', "Congratulations! Hostel Booking successfully done.");
         return back();
     }
 }

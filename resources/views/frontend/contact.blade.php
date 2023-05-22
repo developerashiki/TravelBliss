@@ -77,21 +77,21 @@
           <h2 class="text-center">Contact Us</h2>
           <div class="form-group">
             <label for="">Name</label>
-            <input type="text" name="name" id="name" class="form-control @error('name') is-invalid @enderror" value="{{ old('name') }}" placeholder="Name" />
+            <input type="text" name="name" value="{{ old('name') }}" id="name" class="form-control @error('name') is-invalid @enderror" value="{{ old('name') }}" placeholder="Name" />
             @error('name')
             <small class="text-danger">{{ $message }}</small>
             @enderror
           </div>
           <div class="form-group">
             <label for="">E-Mail</label>
-            <input type="email" name="email" id="email" class="form-control  @error('email') is-invalid @enderror" value="{{ old('email') }}" placeholder="E-Mail" />
+            <input type="email" name="email" id="email" value="{{ old('email') }}" class="form-control  @error('email') is-invalid @enderror" value="{{ old('email') }}" placeholder="E-Mail" />
             @error('email')
             <small class="text-danger">{{ $message }}</small>
             @enderror
           </div>
           <div class="form-group">
             <label for="">Phone</label>
-            <input type="text" name="phone" id="phone" class="form-control  @error('phone') is-invalid @enderror" value="{{ old('phone') }}" placeholder="Phone" />
+            <input type="text" name="phone" id="phone" value="{{ old('phone') }}" class="form-control  @error('phone') is-invalid @enderror" value="{{ old('phone') }}" placeholder="Phone" />
             @error('phone')
             <small class="text-danger">{{ $message }}</small>
             @enderror

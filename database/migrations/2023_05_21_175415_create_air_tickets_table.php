@@ -21,10 +21,10 @@ return new class extends Migration
             $table->dateTime('dob');
             $table->dateTime('departure_date');
             $table->dateTime('return_date');
-            $table->string('adult', 255);
-            $table->string('child', 255);
-            $table->string('infant', 255);
-            $table->string('message', 255);
+            $table->string('adult', 255)->nullable();
+            $table->string('child', 255)->nullable();
+            $table->string('infant', 255)->nullable();
+            $table->string('message', 255)->nullable();
             $table->timestamps();
         });
     }
