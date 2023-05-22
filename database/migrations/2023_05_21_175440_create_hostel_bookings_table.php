@@ -15,12 +15,12 @@ return new class extends Migration
             $table->id();
             $table->string('location', 255);
             $table->string('room', 255);
-            $table->string('guest', 255);
+            $table->string('guest', 255)->nullable();
             $table->dateTime('check_in');
             $table->dateTime('check_out');
-            $table->string('email', 255);
+            $table->string('email', 255)->nullable();
             $table->string('phone', 255);
-            $table->string('message', 255);
+            $table->string('message', 255)->nullable();
             $table->timestamps();
         });
     }
