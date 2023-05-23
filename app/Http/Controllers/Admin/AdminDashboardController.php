@@ -17,4 +17,13 @@ class AdminDashboardController extends Controller
     {
         return view('admin.dashboard');
     }
+    /**
+     * Undocumented function
+     *
+     * @return void
+     */
+    public function content()
+    {
+        return view('admin.content');
+    }
 }

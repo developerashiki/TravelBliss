@@ -55,3 +55,9 @@ td.btn {
 .badge {
     font-size: 150%;
 }
+.bg-login-image {
+    background-position: center;
+    background-size: cover;
+    width: 114%;
+    height: 100%;
+}

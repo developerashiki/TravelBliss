@@ -1,4 +1,4 @@
-  @extends('admin.primary')
+@extends('admin.dashboard')
   @section('main_content')
 
   <!-- Page Heading -->
