@@ -15,14 +15,41 @@
              <div class="sidebar-brand-icon rotate-n-15">
                  <i class="fas fa-laugh-wink"></i>
              </div>
-             <div class="sidebar-brand-text mx-3">ShopMall</div>
+             <div class="sidebar-brand-text mx-3">TravelBills</div>
          </a>
 
          <!-- Nav Item - Visit Website -->
          <li class="nav-item">
              <a class="nav-link" target="__blank" href="{{ url('/') }}">
                  <i class="fas fa-fw fa-tachometer-alt"></i>
-                 <span>Visit Website</span></a>
+                 <span style="font-size:19px">Visit Website</span></a>
+         </li>
+         <!-- Nav Item - Visit Website -->
+         <li class="nav-item {{ ($route == 'home-booking')? 'active':'' }}">
+             <a class="nav-link" href="{{ route('home-booking') }}">
+                 <i class="fas fa-fw fa-table"></i>
+                 <span style="font-size:19px">Hostel Booking</span>
+             </a>
+         </li>
+         <!-- Nav Item - Visit Website -->
+         <li class="nav-item">
+             <a class="nav-link" href="{{ url('/') }}">
+                 <i class="fas fa-fw fa-chart-area"></i>
+                 <span style="font-size:19px">Air Ticket</span>
+             </a>
+         </li>
+         <!-- Nav Item - Visit Website -->
+         <li class="nav-item">
+             <a class="nav-link" href="{{ url('/') }}">
+                 <i class="fas fa-fw fa-tachometer-alt"></i>
+                 <span style="font-size:19px">Indian Rail Ticket</span>
+             </a>
+         </li>
+         <!-- Nav Item - Visit Website -->
+         <li class="nav-item">
+             <a class="nav-link" href="{{ url('/') }}">
+                 <i class="fas fa-fw fa-tachometer-alt"></i>
+                 <span style="font-size:19px">All Contact</span></a>
          </li>
 
          <!-- Divider -->
@@ -129,7 +156,7 @@
          <footer class="sticky-footer bg-white">
              <div class="container my-auto">
                  <div class="copyright text-center my-auto">
-                     <span>Copyright &copy; Your Website 2022</span>
+                     <h4>Copyright TravelBills &copy; Your Website 2023</h4>
                  </div>
              </div>
          </footer>

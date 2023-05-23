@@ -13,11 +13,17 @@ use App\Http\Controllers\RailTicketController;
 use App\Http\Controllers\HotelBookingController;
 use App\Http\Controllers\RefundPolicyController;
 use App\Http\Controllers\Admin\AdminDashboardController;
+use App\Http\Controllers\Admin\HostelBookingController;
 use App\Http\Controllers\VisaProcessingController;
 
-// Backend Routes
-Route::get('/dashboard', [AdminDashboardController::class, 'dashboard'])->name('dashboard');
 
+// Backend Routes
+Route::prefix('admin')->group(function () {
+    Route::get('/dashboard', [AdminDashboardController::class, 'dashboard'])->name('dashboard');
+
+    Route::get('/hotel/booking', [HostelBookingController::class, 'hostelBooking'])->name('home-booking');
+    Route::delete('/hotel/booking/{id}', [HostelBookingController::class, 'destroy'])->name('home-booking-delete');
+});
 
 //Frontend ROutes
 Route::get('/', [HomeController::class, 'index'])->name('home');
