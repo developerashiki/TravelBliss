@@ -76,7 +76,7 @@
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/fontawesome.min.css"></script>
     <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"></script> -->
-    <!-- {!! Toastr::message() !!}
+    {!! Toastr::message() !!}
     <script>
         @if($errors -> any())
         @foreach($errors -> all() as $error)
@@ -106,7 +106,7 @@
                 break;
         }
         @endif
-    </script> -->
+    </script>
 
 </body>
 

@@ -19,8 +19,6 @@ use App\Http\Controllers\VisaProcessingController;
 Route::get('/dashboard', [AdminDashboardController::class, 'dashboard'])->name('dashboard');
 
 
-
-
 //Frontend ROutes
 Route::get('/', [HomeController::class, 'index'])->name('home');
 Route::get('ceo',  [CEOController::class, 'index'])->name('ceo');
