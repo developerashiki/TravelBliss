@@ -32,22 +32,22 @@
              </a>
          </li>
          <!-- Nav Item - Visit Website -->
-         <li class="nav-item">
-             <a class="nav-link" href="{{ url('/') }}">
+         <li class="nav-item {{ ($route == 'air-ticket')? 'active':'' }} ">
+             <a class="nav-link" href="{{route('air-ticket')}}">
                  <i class="fas fa-fw fa-chart-area"></i>
                  <span style="font-size:19px">Air Ticket</span>
              </a>
          </li>
          <!-- Nav Item - Visit Website -->
-         <li class="nav-item">
-             <a class="nav-link" href="{{ url('/') }}">
+         <li class="nav-item {{ ($route == 'indian-railway-ticket')? 'active':'' }}">
+             <a class="nav-link" href="{{ route('indian-railway-ticket') }}">
                  <i class="fas fa-fw fa-tachometer-alt"></i>
                  <span style="font-size:19px">Indian Rail Ticket</span>
              </a>
          </li>
          <!-- Nav Item - Visit Website -->
-         <li class="nav-item">
-             <a class="nav-link" href="{{ url('/') }}">
+         <li class="nav-item {{ ($route == 'contacts')? 'active':'' }}">
+             <a class="nav-link" href="{{ route('contacts')}}">
                  <i class="fas fa-fw fa-tachometer-alt"></i>
                  <span style="font-size:19px">All Contact</span></a>
          </li>

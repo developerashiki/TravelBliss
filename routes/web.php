@@ -12,14 +12,23 @@ use App\Http\Controllers\AirTicketController;
 use App\Http\Controllers\RailTicketController;
 use App\Http\Controllers\HotelBookingController;
 use App\Http\Controllers\RefundPolicyController;
+use App\Http\Controllers\VisaProcessingController;
+//Admin All COntroller
 use App\Http\Controllers\Admin\AdminDashboardController;
 use App\Http\Controllers\Admin\HostelBookingController;
-use App\Http\Controllers\VisaProcessingController;
+use App\Http\Controllers\Admin\ContactsController;
+use App\Http\Controllers\Admin\IndianRailTicketController;
+use App\Http\Controllers\Admin\AirTicketController as AdminAirTicketController;
+
 
 
 // Backend Routes
 Route::prefix('admin')->group(function () {
     Route::get('/dashboard', [AdminDashboardController::class, 'dashboard'])->name('dashboard');
+
+    Route::get('/contacts', [ContactsController::class, 'contacts'])->name('contacts');
+    Route::get('/indian/railway/tickets', [IndianRailTicketController::class, 'indianRailwayTickets'])->name('indian-railway-ticket');
+    Route::get('/air/tickets', [AdminAirTicketController::class, 'airTickets'])->name('air-ticket');
 
     Route::get('/hotel/booking', [HostelBookingController::class, 'hostelBooking'])->name('home-booking');
     Route::delete('/hotel/booking/{id}', [HostelBookingController::class, 'destroy'])->name('home-booking-delete');
