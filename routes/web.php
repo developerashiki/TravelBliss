@@ -12,10 +12,16 @@ use App\Http\Controllers\AirTicketController;
 use App\Http\Controllers\RailTicketController;
 use App\Http\Controllers\HotelBookingController;
 use App\Http\Controllers\RefundPolicyController;
+use App\Http\Controllers\Admin\AdminDashboardController;
 use App\Http\Controllers\VisaProcessingController;
 
+// Backend Routes
+Route::get('/dashboard', [AdminDashboardController::class, 'dashboard'])->name('dashboard');
 
 
+
+
+//Frontend ROutes
 Route::get('/', [HomeController::class, 'index'])->name('home');
 Route::get('ceo',  [CEOController::class, 'index'])->name('ceo');
 Route::get('refund', [RefundPolicyController::class, 'index'])->name('refund');
