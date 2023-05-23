@@ -28,7 +28,10 @@ Route::prefix('admin')->group(function () {
 
     Route::get('/contacts', [ContactsController::class, 'contacts'])->name('contacts');
     Route::get('/indian/railway/tickets', [IndianRailTicketController::class, 'indianRailwayTickets'])->name('indian-railway-ticket');
+    Route::delete('/indian/railway/tickets/{id}', [IndianRailTicketController::class, 'destroy'])->name('indian-railway-ticket-delete');
+
     Route::get('/air/tickets', [AdminAirTicketController::class, 'airTickets'])->name('air-ticket');
+    Route::delete('/air/ticket/{id}', [AdminAirTicketController::class, 'destroy'])->name('air-ticket-delete');
 
     Route::get('/hotel/booking', [HostelBookingController::class, 'hostelBooking'])->name('home-booking');
     Route::delete('/hotel/booking/{id}', [HostelBookingController::class, 'destroy'])->name('home-booking-delete');

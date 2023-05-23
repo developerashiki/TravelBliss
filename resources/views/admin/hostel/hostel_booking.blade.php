@@ -34,8 +34,8 @@
                         <td> {{ $hostelBooking->location }} </td>
                         <td> {{ $hostelBooking->phone }} </td>
                         <td> {{ $hostelBooking->room }} </td>
-                        <td> <span class="badge bg-success"> {{ date('y-m-d',strtotime($hostelBooking->check_in))  }} </span></td>
-                        <td><span class="badge bg-danger"> {{ date('y-m-d',strtotime($hostelBooking->check_out)) }}</span> </td>
+                        <td> <span class="badge bg-success"> {{ date('d-m-Y',strtotime($hostelBooking->check_in))  }} </span></td>
+                        <td><span class="badge bg-danger"> {{ date('d-m-Y',strtotime($hostelBooking->check_out)) }}</span> </td>
                         <td> {{ $hostelBooking->guest }} </td>
                         <td> {{ $hostelBooking->email }} </td>
                         <td> {{ $hostelBooking->message }} </td>
