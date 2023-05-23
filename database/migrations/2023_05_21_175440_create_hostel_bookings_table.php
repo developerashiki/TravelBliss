@@ -20,7 +20,7 @@ return new class extends Migration
             $table->dateTime('check_out');
             $table->string('email', 255)->nullable();
             $table->string('phone', 255);
-            $table->string('message', 255)->nullable();
+            $table->longText('message')->nullable();
             $table->timestamps();
         });
     }

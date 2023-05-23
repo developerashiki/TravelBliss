@@ -24,7 +24,7 @@ return new class extends Migration
             $table->string('adult', 255)->nullable();
             $table->string('child', 255)->nullable();
             $table->string('infant', 255)->nullable();
-            $table->string('message', 255)->nullable();
+            $table->longText('message')->nullable();
             $table->timestamps();
         });
     }
