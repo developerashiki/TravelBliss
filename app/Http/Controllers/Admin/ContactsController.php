@@ -3,6 +3,7 @@
 namespace App\Http\Controllers\Admin;
 
 use App\Http\Controllers\Controller;
+use App\Models\Contact;
 use Illuminate\Http\Request;
 
 class ContactsController extends Controller
@@ -14,6 +15,8 @@ class ContactsController extends Controller
      */
     public function contacts()
     {
-        # code...
+        $this->data['contacts'] = Contact::latest('id')->simplePaginate(20);
+
+        return view('admin.contact.contacts', $this->data);
     }
 }
