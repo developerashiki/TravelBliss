@@ -29,7 +29,7 @@ Route::post('login', [LoginController::class, 'authenticate'])->name('login.conf
 
 // Backend Routes
 Route::group(['middleware' => 'auth'], function () {
-
+    //All routes here
     Route::get('logout', [LoginController::class, 'logout'])->name('logout');
 
     Route::prefix('admin')->group(function () {
