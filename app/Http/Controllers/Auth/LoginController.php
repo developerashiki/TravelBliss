@@ -29,7 +29,7 @@ class LoginController extends Controller
         $data = $request->only('email', 'password');
 
         if (Auth::attempt($data)) {
-            return redirect()->intended('dashboard');
+            return redirect()->route('dashboard-content');
         } else
             return redirect()->route('login')->withErrors(['Invalid Email and password']);
     }

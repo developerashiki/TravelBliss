@@ -34,7 +34,7 @@ Route::group(['middleware' => 'auth'], function () {
 
     Route::prefix('admin')->group(function () {
         Route::get('/dashboard', [AdminDashboardController::class, 'dashboard'])->name('dashboard');
-        Route::get('/dashboard', [AdminDashboardController::class, 'content'])->name('dashboard-content');
+        Route::get('/dashboard-content', [AdminDashboardController::class, 'content'])->name('dashboard-content');
 
         Route::get('/contacts', [ContactsController::class, 'contacts'])->name('contacts');
         Route::get('/indian/railway/tickets', [IndianRailTicketController::class, 'indianRailwayTickets'])->name('indian-railway-ticket');
