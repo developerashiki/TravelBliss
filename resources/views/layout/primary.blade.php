@@ -25,18 +25,18 @@
         <div class="col-lg-8 col-12 d-flex flex-wrap">
           <p class="d-flex me-4 mb-0">
             <i class="bi-envelope me-2"></i>
-            Booking@DragonHolidaysBD.com
+            ceo@travelblissinternational.com
           </p>
 
           <p class="d-flex mb-0">
             <i class="bi bi-telephone-inbound"></i>
 
-            <a href="#" class="phone"> +8801796232323 </a>
+            <a href="#" class="phone"> +8801873171717</a> 
           </p>
 
           <p class="d-flex mb-0 ml-2">
             <span class="bi bi-alarm"></span>
-            <a href="#" class="clock"> 11am-6pm </a>
+            <a href="#" class="clock"> 10am-6pm </a>
           </p>
         </div>
 
@@ -100,9 +100,9 @@
               <li><a class="dropdown-item" href="{{ route('air_ticket') }}">Air Ticket</a></li>
               <li><a class="dropdown-item" href="{{ route('rail_ticket') }}">Indian Rail Ticket</a></li>
               <li><a class="dropdown-item" href="{{ route('visa_processing') }}">Visa Processing</a></li>
-              <li><a class="dropdown-item" href="">Student Visa</a></li>
-              <li><a class="dropdown-item" href="">Schooling visa</a></li>
-              <li><a class="dropdown-item" href="">Hajj & Umrah</a></li>
+              <li><a class="dropdown-item" href="{{ route('student_visa') }}">Student Visa</a></li>
+              <li><a class="dropdown-item" href="{{ route('schooling_visa') }}">Schooling visa</a></li>
+              <li><a class="dropdown-item" href="{{ route('umrah_visa') }}">Hajj & Umrah</a></li>
               <li><a class="dropdown-item" href="{{ route('hotel_booking') }}">Hotel Booking</a></li>
             </ul>
           </li>
@@ -110,7 +110,7 @@
             <a class="nav-link click-scroll" href="{{ route('gallary') }}">Gallary</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link click-scroll" href="#section_6">Blog</a>
+            <a class="nav-link click-scroll" href="{{ route('blog') }}">Blog</a>
           </li>
           <li class="nav-item">
             <a class="nav-link click-scroll" href="{{ route('contact') }}">Contact</a>
@@ -133,8 +133,7 @@
             <img src="{{ asset('assets/images/travelbliss.png') }}" height="60" alt="" loading="lazy" />
           </div>
 
-          <p class="text-left">
-            TravelBliss International delivers consumers everything they need planning and purchasing a whole trip. The company provides direct access to one of the broadest selections of travel products services through its user friendly Web site and serving many different consumer segments.
+          <p class="text-center">The company provides direct access to one of the broadest selections of travel products services through its user friendly Web site and serving many different consumer segments.
           </p>
 
           <ul class="list-unstyled d-flex flex-row justify-content-center">
@@ -163,22 +162,22 @@
 
           <ul class="list-unstyled">
             <li class="mb-2">
-              <a href="#!">Student Visa</a>
+              <a href="{{ route('student_visa') }}">Student Visa</a>
             </li>
             <li class="mb-2">
-              <a href="#!">Schooling Visa</a>
+              <a href="{{ route('schooling_visa') }}">Schooling Visa</a>
             </li>
             <li class="mb-2">
-              <a href="#!">Visa Processing</a>
+              <a href="{{ route('visa_processing') }}">Visa Processing</a>
             </li>
             <li class="mb-2">
-              <a href="#!">Hajj & Umrah Visa</a>
+              <a href="{{ route('umrah_visa') }}">Hajj & Umrah Visa</a>
             </li>
             <li class="mb-2">
-              <a href="#!">Air Ticket</a>
+              <a href="{{ route('rail_ticket') }}">Air Ticket</a>
             </li>
             <li class="mb-2">
-              <a href="#!">Package Tour</a>
+              <a href="{{ route('hotel_booking') }}">Hotel Booking</a>
             </li>
           </ul>
         </div>
@@ -190,22 +189,22 @@
 
           <ul class="list-unstyled">
             <li class="mb-2">
-              <a href="#!">Home</a>
+              <a href="{{ route('home') }}">Home</a>
             </li>
             <li class="mb-2">
-              <a href="#!">Blog</a>
+              <a href="{{ route('blog') }}">Blog</a>
             </li>
             <li class="mb-2">
-              <a href="#!">Gallary</a>
+              <a href="{{ route('gallary') }}">Gallary</a>
             </li>
             <li class="mb-2">
-              <a href="#!">Umrah Visa</a>
+              <a href="{{ route('umrah_visa') }}">Umrah Visa</a>
             </li>
             <li class="mb-2">
-              <a href="#!">Student Visa</a>
+              <a href="{{ route('student_visa') }}">Student Visa</a>
             </li>
             <li class="mb-2">
-              <a href="#!">Contact</a>
+              <a href="{{ route('contact') }}">Contact</a>
             </li>
           </ul>
         </div>
@@ -219,8 +218,8 @@
             <li>
               <p class="d-flex mb-2">
                 <i class="bi-geo-alt me-2"></i>
-                TravelBliss International, M M Complex(4th Floor), Mirpur Saree Egaro Bus Stand,
-                1216
+                TravelBliss International, M M Complex(4th Floor), Mirpur Saree Egaro Bus Stand, Pallabi, Dhaka-1216.
+                
               </p>
             </li>
             <li>
@@ -235,7 +234,7 @@
             </p>
             <p class="d-flex mb-2">
               <i class="bi-envelope me-2"></i>
-              contact@example.com
+              ceo@travelblissinternational.com
             </p>
             </li>
           </ul>

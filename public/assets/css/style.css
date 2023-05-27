@@ -9,7 +9,8 @@ a.phone{
 }
 .counter
 {
-    background-image: url(../images/coconut.jpg);
+    /* background-image: url(../images/coconut.jpg); */
+    background-color: darkcyan;
     text-align: center; 
 }
 .employees,.customer,.design,.order
@@ -134,4 +135,12 @@ a.phone{
     padding-bottom: -17px;
 }
 
-
+.w-100 {
+  height:450px;
+}
+#height {
+  height: 170px;
+}
+#cal{
+  padding-left: initial;
+}

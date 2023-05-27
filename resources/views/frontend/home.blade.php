@@ -19,10 +19,12 @@
             <div class="card-flyer">
               <div class="text-box">
                 <div class="image-box">
+                  <a href="{{ route('air_ticket') }}">
                   <img
                     src="{{ asset('assets/images/airticket.jpg') }}"
                     alt=""
                   />
+                </a>
                 </div>
                 <div class="text-container">
                   <h6>Air Ticket</h6>
@@ -36,10 +38,12 @@
             <div class="card-flyer">
               <div class="text-box">
                 <div class="image-box">
+                  <a href="{{ route('visa_processing') }}">
                   <img
                     src="{{ asset('assets/images/tourist-vis.jpg') }}"
                     alt=""
                   />
+                </a>
                 </div>
                 <div class="text-container">
                   <h6>Visa Processing</h6>
@@ -53,10 +57,12 @@
             <div class="card-flyer">
               <div class="text-box">
                 <div class="image-box">
+                  <a href="{{ route('student_visa') }}">
                   <img
                     src="{{ asset('assets/images/student-visa (1).jpg') }}"
                     alt=""
                   />
+                </a>
                 </div>
                 <div class="text-container">
                   <h6>Student Visa</h6>
@@ -70,10 +76,12 @@
             <div class="card-flyer">
               <div class="text-box">
                 <div class="image-box">
+                  <a href="{{ route('umrah_visa') }}">
                   <img
                     src="{{ asset('assets/images/makkah.jpg') }}"
                     alt=""
                   />
+                </a>
                 </div>
 
                 <div class="text-container">
@@ -105,10 +113,12 @@
             <div class="card-flyer">
               <div class="text-box">
                 <div class="image-box">
+                  <a href="{{ route('schooling_visa') }}">
                   <img
                     src="{{ asset('assets/images/schooiing.webp') }}"
                     alt=""
                   />
+                  </a>
                 </div>
                 <div class="text-container">
                   <h6>Schooling Visa</h6>
@@ -178,29 +188,29 @@
     <div class="row">
       <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
         <div class="employees">
-          <p class="counter-count">879</p>
-          <p class="employee-p">Employee</p>
+          <p class="counter-count">49</p>
+          <p class="employee-p text-white">DESTINATIONS</p>
         </div>
       </div>
 
       <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
         <div class="customer">
-          <p class="counter-count">954</p>
-          <p class="customer-p">Customer</p>
+          <p class="counter-count">120</p>
+          <p class="customer-p text-white">TOURS PACK</p>
         </div>
       </div>
 
       <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
         <div class="design">
-          <p class="counter-count">1050</p>
-          <p class="design-p">Design</p>
+          <p class="counter-count">22</p>
+          <p class="design-p text-white">CRUISES</p>
         </div>
       </div>
 
       <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
         <div class="order">
-          <p class="counter-count">652</p>
-          <p class="order-p">Orders</p>
+          <p class="counter-count">24</p>
+          <p class="order-p text-white">HOUR SUPPORT</p>
         </div>
       </div>
     </div>

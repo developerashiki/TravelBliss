@@ -4,6 +4,7 @@ use Illuminate\Support\Facades\Route;
 
 use App\Http\Controllers\CEOController;
 use App\Http\Controllers\PayController;
+use App\Http\Controllers\BlogController;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\TermsController;
 use App\Http\Controllers\ContactController;
@@ -12,13 +13,18 @@ use App\Http\Controllers\AirTicketController;
 use App\Http\Controllers\Auth\LoginController;
 use App\Http\Controllers\RailTicketController;
 use App\Http\Controllers\HotelBookingController;
-use App\Http\Controllers\RefundPolicyController;
 //Admin All COntroller
+use App\Http\Controllers\RefundPolicyController;
 use App\Http\Controllers\Admin\ContactsController;
 use App\Http\Controllers\VisaProcessingController;
+use App\Http\Controllers\ThailandVisaGuideController;
 use App\Http\Controllers\Admin\HostelBookingController;
+use App\Http\Controllers\UmrahVisaProcessingController;
 use App\Http\Controllers\Admin\AdminDashboardController;
+use App\Http\Controllers\CanadaVisaProcessingController;
+use App\Http\Controllers\StudentVisaProcessingController;
 use App\Http\Controllers\Admin\IndianRailTicketController;
+use App\Http\Controllers\SchoolingVisaProcessingController;
 use App\Http\Controllers\Admin\AirTicketController as AdminAirTicketController;
 
 
@@ -48,17 +54,23 @@ Route::group(['middleware' => 'auth'], function () {
     });
 });
 
-//Frontend ROutes
+//Frontend Routes
 Route::get('/', [HomeController::class, 'index'])->name('home');
 Route::get('ceo',  [CEOController::class, 'index'])->name('ceo');
 Route::get('refund', [RefundPolicyController::class, 'index'])->name('refund');
 Route::get('condition', [TermsController::class, 'index'])->name('condition');
 Route::get('pay', [PayController::class, 'index'])->name('pay');
 Route::get('visa_processing', [VisaProcessingController::class, 'index'])->name('visa_processing');
+Route::get('student_visa', [StudentVisaProcessingController::class, 'index'])->name('student_visa');
+Route::get('schooling_visa', [SchoolingVisaProcessingController::class, 'index'])->name('schooling_visa');
+Route::get('umrah_visa', [UmrahVisaProcessingController::class, 'index'])->name('umrah_visa');
 Route::get('gallary', [GallaryController::class, 'index'])->name('gallary');
-
+Route::get('canada_visa', [CanadaVisaProcessingController::class, 'index'])->name('canada_visa');
 Route::get('air', [AirTicketController::class, 'index'])->name('air_ticket');
 Route::post('air', [AirTicketController::class, 'airTicket'])->name('air-ticket-booking');
+Route::get('blog', [BlogController::class, 'index'])->name('blog');
+
+Route::get('thiland_visa_guide', [ThailandVisaGuideController::class, 'index'])->name('thiland_visa_guide');
 
 Route::get('rail', [RailTicketController::class, 'index'])->name('rail_ticket');
 Route::post('rail', [RailTicketController::class, 'railTicket'])->name('rail-ticket-booking');
