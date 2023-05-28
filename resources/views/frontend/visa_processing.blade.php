@@ -5,11 +5,11 @@
     <div class="container">
       <div class="row">
         <div class="text-center pt-3">
-          <h3><strong>Student Visa</strong></h3>
+          <h3><strong>Tourist Visa</strong></h3>
         </div>
         <div class="col-lg-3 col-12 text-center pt-4 i">
           <div>
-            <a href="{{ route('canada_visa') }}">
+            <a href="">
               <img
                 src="{{ asset('assets/images/Austrilia.jpg') }}"
                 class="img-fluid  w-100  text-center" id="height"
@@ -36,10 +36,22 @@
               <a href="">
                 <img
                   src="{{ asset('assets/images/China.png') }}"
-                  class="img-fluid w-100 text-center"
+                  class="img-fluid w-100 text-center"  id="height"
                   alt=""
                 />
                 <h6 class="pt-2">China || Read More</h6>
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-3 col-12 text-center pt-4">
+            <div>
+              <a href="{{ route('dubai_visa') }}">
+                <img
+                  src="{{ asset('assets/images/dubai.jpg') }}"
+                  class="img-fluid w-100 text-center"  id="height"
+                  alt=""
+                />
+                <h6 class="pt-2">Dubai || Read More</h6>
               </a>
             </div>
           </div>

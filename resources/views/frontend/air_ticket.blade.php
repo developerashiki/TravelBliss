@@ -119,7 +119,7 @@
           </div>
 
           <label for="input"> Message </label>
-          <textarea name="message" rows="5" class="form-control" id="message" placeholder="What can we help you?"></textarea>
+          <textarea name="message" rows="3" class="form-control" id="message" placeholder="What can we help you?"></textarea>
 
           <button type="submit" class="form-control">Send</button>
         </form>

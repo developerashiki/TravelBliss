@@ -5,20 +5,20 @@
     <div class="container">
       <div class="row">
         <div class="text-center pt-3">
-          <h3><strong>Schooling Visa</strong></h3>
+          <h3><strong>Dubai Visa Processing</strong></h3>
         </div>
-        <div class="col-lg-3 col-12 text-center pt-4">
-          <div>
-            <a href="{{ route('canada_visa') }}">
+        <div class="col-lg-12 col-12 text-center pt-4">
+          <div class="">
+            <a href="">
               <img
-                src="{{ asset('assets/images/schooiing.webp') }}"
-                class="img-fluid w-100 text-center"
+                src="{{ asset('assets/images/dubai.jpeg') }}"
+                class="img-fluid w-50 text-center"
                 alt=""
               />
-              <h6 class="pt-3">Schooling_Visa</h6>
             </a>
           </div>
         </div>
+      </div>
     </div>
   </section>
   <!-- About Section -->

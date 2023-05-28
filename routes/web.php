@@ -10,17 +10,23 @@ use App\Http\Controllers\TermsController;
 use App\Http\Controllers\ContactController;
 use App\Http\Controllers\GallaryController;
 use App\Http\Controllers\AirTicketController;
+use App\Http\Controllers\DubaiVisaController;
 use App\Http\Controllers\Auth\LoginController;
 use App\Http\Controllers\RailTicketController;
-use App\Http\Controllers\HotelBookingController;
 //Admin All COntroller
+use App\Http\Controllers\HotelBookingController;
 use App\Http\Controllers\RefundPolicyController;
+use App\Http\Controllers\UkStudentVisaController;
 use App\Http\Controllers\Admin\ContactsController;
+use App\Http\Controllers\UsaStudentVisaController;
 use App\Http\Controllers\VisaProcessingController;
+use App\Http\Controllers\ChinaStudentVisaController;
+use App\Http\Controllers\IndiaStudentVisaController;
 use App\Http\Controllers\ThailandVisaGuideController;
 use App\Http\Controllers\Admin\HostelBookingController;
 use App\Http\Controllers\UmrahVisaProcessingController;
 use App\Http\Controllers\Admin\AdminDashboardController;
+use App\Http\Controllers\AustriliaStudentVisaController;
 use App\Http\Controllers\CanadaVisaProcessingController;
 use App\Http\Controllers\StudentVisaProcessingController;
 use App\Http\Controllers\Admin\IndianRailTicketController;
@@ -69,6 +75,14 @@ Route::get('canada_visa', [CanadaVisaProcessingController::class, 'index'])->nam
 Route::get('air', [AirTicketController::class, 'index'])->name('air_ticket');
 Route::post('air', [AirTicketController::class, 'airTicket'])->name('air-ticket-booking');
 Route::get('blog', [BlogController::class, 'index'])->name('blog');
+
+Route::get('china_student_visa', [ChinaStudentVisaController::class, 'index'])->name('china_student_visa');
+Route::get('india_student_visa', [IndiaStudentVisaController::class, 'index'])->name('india_student_visa');
+Route::get('uk_student_visa', [UkStudentVisaController::class, 'index'])->name('uk_student_visa');
+Route::get('usa_student_visa', [UsaStudentVisaController::class, 'index'])->name('usa_student_visa');
+Route::get('austrilia_student_visa', [AustriliaStudentVisaController::class, 'index'])->name('austrilia_student_visa');
+Route::get('dubai_visa', [DubaiVisaController::class, 'index'])->name('dubai_visa');
+
 
 Route::get('thiland_visa_guide', [ThailandVisaGuideController::class, 'index'])->name('thiland_visa_guide');
 

@@ -47,7 +47,7 @@
             </li>
 
             <li class="social-icon-item">
-              <a href="#" class="social-icon-link bi-facebook"></a>
+              <a href="https://www.facebook.com/TravelBlissInternational" class="social-icon-link bi-facebook"></a>
             </li>
 
             <li class="social-icon-item">

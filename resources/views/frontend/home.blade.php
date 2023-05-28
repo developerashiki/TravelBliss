@@ -157,7 +157,7 @@
             <img src="{{ asset('assets/images/cat-ba-to-hanoi-via-lan-ha-bay-1024x640.jpg') }}" class="custom-block-image img-fluid" alt="" />
             <div class="custom-block">
               <div class="custom-block-body">
-                <h5>Veatnam || 37000 BDT</h5>
+                <h5>Vietnam || 37000 BDT</h5>
                 <h6 class="text-success">4 Days Bangkok Saver</h6>
                 <p>Included: Air ticket, Hotel, Breakfast, Tours, Airport transfers</p>
               </div>

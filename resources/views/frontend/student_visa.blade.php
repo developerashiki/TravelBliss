@@ -9,19 +9,19 @@
         </div>
         <div class="col-lg-3 col-12 text-center pt-4 i">
           <div>
-            <a href="{{ route('canada_visa') }}">
+            <a href="{{ route('austrilia_student_visa') }}">
               <img
                 src="{{ asset('assets/images/Austrilia.jpg') }}"
                 class="img-fluid  w-100  text-center" id="height"
                 alt=""
               />
-              <h6 class="pt-2">Austrilia || Read More</h6>
+              <h6 class="pt-2">Australia || Read More</h6>
             </a>
           </div>
         </div>
         <div class="col-lg-3 col-12 text-center pt-4" >
             <div>
-              <a href="">
+              <a href="{{ route('canada_visa') }}">
                 <img
                   src="{{ asset('assets/images/Canada.png') }}"
                   class="img-fluid w-100 text-center" id="height"
@@ -33,7 +33,7 @@
           </div>
           <div class="col-lg-3 col-12 text-center pt-4">
             <div>
-              <a href="">
+              <a href="{{ route('china_student_visa') }}">
                 <img
                   src="{{ asset('assets/images/China.png') }}"
                   class="img-fluid w-100 text-center"
@@ -45,7 +45,7 @@
           </div>
           <div class="col-lg-3 col-12 text-center pt-4">
             <div>
-              <a href="">
+              <a href="{{ route('india_student_visa') }}">
                 <img
                   src="{{ asset('assets/images/India.png') }}"
                   class="img-fluid w-100 text-center"
@@ -81,7 +81,7 @@
           </div>
           <div class="col-lg-3 col-12 text-center pt-4">
             <div>
-              <a href="">
+              <a href="{{ route('uk_student_visa') }}">
                 <img
                   src="{{ asset('assets/images/United_Kingdom.png') }}"
                   class="img-fluid w-100 text-center" id="height"
@@ -93,7 +93,7 @@
           </div>
           <div class="col-lg-3 col-12 text-center pt-4">
             <div>
-              <a href="">
+              <a href="{{ route('usa_student_visa') }}">
                 <img
                   src="{{ asset('assets/images/United-States-of-America.jpg') }}"
                   class="img-fluid w-100 text-center" id="height"

@@ -19,15 +19,6 @@
                           <p class="card-text pt-2"><small class="text-muted ">Last updated 3 mins ago</small></p>
                         </div>
                       </div>
-                    
-                    <div class="card mb-3">
-                        <img src="https://cdn.pixabay.com/photo/2016/05/01/21/20/earth-1365995_1280.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                          <h5 class="card-title">Card title</h5>
-                          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                        </div>
-                      </div>  
                   </div>
                   <div class="col-12 col-md-4">  
                     <div class="card">
@@ -168,7 +159,7 @@
                         <h5>Présentation</h5>
                         <hr/>
                         <div class="ratio ratio-16x9">
-                            <iframe src="https://www.facebook.com/TravelBlissInternational/videos/574510088043262" title="YouTube video" allowfullscreen></iframe>
+                          <iframe src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2FTravelBlissInternational%2Fvideos%2F895209268185235%2F&show_text=false&width=560&t=0" width="560" height="314" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>
                         </div>
                       </div>
                     </div>
