@@ -9,34 +9,22 @@
         </div>
         <div class="col-lg-3 col-12 text-center pt-4 i">
           <div>
-            <a href="">
+            <a href="{{ route('cambodia_visa') }}">
               <img
-                src="{{ asset('assets/images/Austrilia.jpg') }}"
+                src="{{ asset('assets/images/Flag_of_Cambodia.svg') }}"
                 class="img-fluid  w-100  text-center" id="height"
                 alt=""
               />
-              <h6 class="pt-2">Austrilia || Read More</h6>
+              <h6 class="pt-2">Cambodia || Read More</h6>
             </a>
           </div>
         </div>
         <div class="col-lg-3 col-12 text-center pt-4" >
             <div>
-              <a href="">
-                <img
-                  src="{{ asset('assets/images/Canada.png') }}"
-                  class="img-fluid w-100 text-center" id="height"
-                  alt=""
-                />
-                <h6 class="pt-2">Canada || Read More</h6>
-              </a>
-            </div>
-          </div>
-          <div class="col-lg-3 col-12 text-center pt-4">
-            <div>
-              <a href="">
+              <a href="{{ route('china_visa') }}">
                 <img
                   src="{{ asset('assets/images/China.png') }}"
-                  class="img-fluid w-100 text-center"  id="height"
+                  class="img-fluid w-100 text-center" id="height"
                   alt=""
                 />
                 <h6 class="pt-2">China || Read More</h6>
@@ -57,7 +45,7 @@
           </div>
           <div class="col-lg-3 col-12 text-center pt-4">
             <div>
-              <a href="">
+              <a href="{{ route('indian_visa') }}">
                 <img
                   src="{{ asset('assets/images/India.png') }}"
                   class="img-fluid w-100 text-center"
@@ -69,9 +57,9 @@
           </div>
           <div class="col-lg-3 col-12 text-center pt-4">
             <div>
-              <a href="">
+              <a href="{{ route('italy_visa') }}">
                 <img
-                  src="{{ asset('assets/images/Italy_(1946–2003).png') }}"
+                  src="{{ asset('assets/images/italy.png') }}"
                   class="img-fluid w-100 text-center"
                   alt=""
                 />
