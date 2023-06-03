@@ -539,7 +539,7 @@ strong {
 .site-header p a,
 .site-header .social-icon-link {
   color: var(--white-color);
-  font-size: var(--copyright-font-size);
+  /* font-size: var(--copyright-font-size); */
 }
 
 .site-header .social-icon {

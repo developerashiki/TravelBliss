@@ -7,19 +7,26 @@ use App\Http\Controllers\PayController;
 use App\Http\Controllers\BlogController;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\TermsController;
+use App\Http\Controllers\UKVisaController;
 use App\Http\Controllers\ContactController;
 use App\Http\Controllers\GallaryController;
 use App\Http\Controllers\AirTicketController;
 use App\Http\Controllers\ChinaVisaController;
 use App\Http\Controllers\DubaiVisaController;
-use App\Http\Controllers\IndiaVisaController;
 //Admin All COntroller
+use App\Http\Controllers\IndiaVisaController;
 use App\Http\Controllers\ItalyVisaController;
+use App\Http\Controllers\SaudiVisaController;
 use App\Http\Controllers\Auth\LoginController;
 use App\Http\Controllers\RailTicketController;
 use App\Http\Controllers\CambodiaVisaController;
 use App\Http\Controllers\HotelBookingController;
+use App\Http\Controllers\MalaysiaVisaController;
 use App\Http\Controllers\RefundPolicyController;
+use App\Http\Controllers\SingapurVisaController;
+use App\Http\Controllers\ThailandVisaController;
+use App\Http\Controllers\PhilipineVisaController;
+use App\Http\Controllers\SirilankaVisaController;
 use App\Http\Controllers\UkStudentVisaController;
 use App\Http\Controllers\Admin\ContactsController;
 use App\Http\Controllers\UsaStudentVisaController;
@@ -27,6 +34,7 @@ use App\Http\Controllers\VisaProcessingController;
 use App\Http\Controllers\ChinaStudentVisaController;
 use App\Http\Controllers\IndiaStudentVisaController;
 use App\Http\Controllers\ThailandVisaGuideController;
+use App\Http\Controllers\RangamatiVisaGuideController;
 use App\Http\Controllers\Admin\HostelBookingController;
 use App\Http\Controllers\UmrahVisaProcessingController;
 use App\Http\Controllers\Admin\AdminDashboardController;
@@ -90,10 +98,19 @@ Route::get('cambodia_visa', [CambodiaVisaController::class, 'index'])->name('cam
 Route::get('china_visa', [ChinaVisaController::class, 'index'])->name('china_visa');
 Route::get('indian_visa', [IndiaVisaController::class, 'index'])->name('indian_visa');
 Route::get('italy_visa', [ItalyVisaController::class, 'index'])->name('italy_visa');
-
-
+Route::get('malaysia_visa', [MalaysiaVisaController::class, 'index'])->name('malaysia_visa');
+Route::get('philipine_visa', [PhilipineVisaController::class, 'index'])->name('philipine_visa');
+Route::get('saudi_visa', [SaudiVisaController::class, 'index'])->name('saudi_visa');
+Route::get('singapure_visa', [SingapurVisaController::class, 'index'])->name('singapure_visa');
+Route::get('uk_visa', [UKVisaController::class, 'index'])->name('uk_visa');
+Route::get('sirilanka_visa', [SirilankaVisaController::class, 'index'])->name('sirilanka_visa');
+Route::get('thiland_Visa', [ThailandVisaController::class, 'index'])->name('thiland_Visa');
 
 Route::get('thiland_visa_guide', [ThailandVisaGuideController::class, 'index'])->name('thiland_visa_guide');
+Route::get('rangamati_visa_guide', [RangamatiVisaGuideController::class, 'index'])->name('rangamati_visa_guide');
+
+
+
 
 Route::get('rail', [RailTicketController::class, 'index'])->name('rail_ticket');
 Route::post('rail', [RailTicketController::class, 'railTicket'])->name('rail-ticket-booking');

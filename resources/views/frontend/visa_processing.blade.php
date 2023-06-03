@@ -69,19 +69,31 @@
           </div>
           <div class="col-lg-3 col-12 text-center pt-4">
             <div>
-              <a href="">
+              <a href="{{ route('malaysia_visa') }}">
                 <img
-                  src="{{ asset('assets/images/Flag_of_Romania.png') }}"
-                  class="img-fluid w-100 text-center"
+                  src="{{ asset('assets/images/Flag_of_Malaysia.svg.webp') }}"
+                  class="img-fluid w-100 text-center" id="height"
                   alt=""
                 />
-                <h6 class="pt-2">Romania || Read More</h6>
+                <h6 class="pt-2">Malaysia || Read More</h6>
               </a>
             </div>
           </div>
           <div class="col-lg-3 col-12 text-center pt-4">
             <div>
-              <a href="">
+              <a href="{{ route('philipine_visa') }}">
+                <img
+                  src="{{ asset('assets/images/Flag-Philippines.webp') }}"
+                  class="img-fluid w-100 text-center" id="height"
+                  alt=""
+                />
+                <h6 class="pt-2">Philipine || Read More</h6>
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-3 col-12 text-center pt-4">
+            <div>
+              <a href="{{ route('uk_visa') }}">
                 <img
                   src="{{ asset('assets/images/United_Kingdom.png') }}"
                   class="img-fluid w-100 text-center" id="height"
@@ -93,17 +105,52 @@
           </div>
           <div class="col-lg-3 col-12 text-center pt-4">
             <div>
-              <a href="">
+              <a href="{{ route('saudi_visa') }}">
                 <img
-                  src="{{ asset('assets/images/United-States-of-America.jpg') }}"
+                  src="{{ asset('assets/images/Flag-Saudi-Arabia.webp') }}"
                   class="img-fluid w-100 text-center" id="height"
                   alt=""
                 />
-                <h6 class="pt-2">USA || Read More</h6>
+                <h6 class="pt-2">Saudi-Arabia || Read More</h6>
               </a>
             </div>
           </div>
-    
+          <div class="col-lg-3 col-12 text-center pt-4">
+            <div>
+              <a href="{{ route('singapure_visa') }}">
+                <img
+                  src="{{ asset('assets/images/download (1).png') }}"
+                  class="img-fluid w-100 text-center" id="height"
+                  alt=""
+                />
+                <h6 class="pt-2">Singapure || Read More</h6>
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-3 col-12 text-center pt-4">
+            <div>
+              <a href="{{ route('sirilanka_visa') }}">
+                <img
+                  src="{{ asset('assets/images/sirilanka.png') }}"
+                  class="img-fluid w-100 text-center" id="height"
+                  alt=""
+                />
+                <h6 class="pt-2">Srilanka || Read More</h6>
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-3 col-12 text-center pt-4">
+            <div>
+              <a href="{{ route('thiland_Visa') }}">
+                <img
+                  src="{{ asset('assets/images/thailand (2).jpg') }}"
+                  class="img-fluid w-100 text-center" id="height"
+                  alt=""
+                />
+                <h6 class="pt-2">Thailand || Read More</h6>
+              </a>
+            </div>
+          </div>
     </div>
     </div>
   </section>

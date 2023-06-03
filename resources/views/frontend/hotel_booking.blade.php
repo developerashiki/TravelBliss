@@ -4,7 +4,7 @@
 <section class="section-padding" id="section_2">
   <div class="container">
     <div class="row">
-      <div class="col-lg-8 col-6 mx-auto">
+      <div class="col-lg-6 col-md-6 col-12 mx-auto">
         @if(session('success'))
         <div class="alert alert-success">
           {!! session('success') !!}
@@ -15,7 +15,7 @@
 
           <h4 class="text-center">Hotel Booking </h4>
           <div class="row">
-            <div class="col-lg-4 col-md-6 col-3">
+            <div class="col-lg-4 col-md-6 mx-auto">
               <label for="input"> Location </label>
               <select class="form-control" name="location" id="">
                 <option value="Bogra">Bogra</option>
@@ -35,8 +35,7 @@
               <small class="text-danger">{{ $message }}</small>
               @enderror
             </div>
-
-            <div class="col-lg-4 col-md-6 col-3">
+            <div class="col-lg-4 col-md-6 mx-auto">
               <label for="input"> Room </label>
               <select class="form-control" name="room" id="">
                 <option value="1">1</option>
@@ -55,7 +54,7 @@
               @enderror
             </div>
 
-            <div class="col-lg-4 col-md-6 col-3">
+            <div class="col-lg-4 col-md-6  mx-auto">
               <label for="input"> Guest </label>
               <select class="form-control" name="guest" id="">
                 <option value="0">0</option>

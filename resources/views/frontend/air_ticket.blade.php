@@ -4,7 +4,7 @@
 <section class="section-padding" id="section_2">
   <div class="container">
     <div class="row">
-      <div class="col-lg-12 col-12 mx-auto">
+      <div class="col-lg-8 col-12 mx-auto">
         @if(session('success'))
         <div class="alert alert-success">
           {!! session('success') !!}

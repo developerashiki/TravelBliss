@@ -59,7 +59,7 @@
             <div>
               <a href="">
                 <img
-                  src="{{ asset('assets/images/Italy_(1946–2003).png') }}"
+                  src="{{ asset('assets/images/Italy.png') }}"
                   class="img-fluid w-100 text-center"
                   alt=""
                 />

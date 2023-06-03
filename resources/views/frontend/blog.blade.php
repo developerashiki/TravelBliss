@@ -19,6 +19,15 @@
                           <p class="card-text pt-2"><small class="text-muted ">Last updated 3 mins ago</small></p>
                         </div>
                       </div>
+                      <div class="card mb-3">
+                        <img src="{{ asset('assets/images/Rangamati.jpg') }}" class="card-img-top w-100" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Rangamati_Visa_Guide</h5>
+                          <p class="card-text">রাঙামাটি ভ্রমণের প্রয়োজনীয় কিছু তথ্য বাংলাদেশের দক্ষিণ-পূর্ব দিকের একটি অনন্য পর্যটন এলাকা রাঙামাটি। বন্দর নগরী চট্টগ্রাম-এ অবস্থিত লাল পাহাড়ের এই অঞ্চলের খ্যাতি রয়েছে পুরো দেশজুড়ে, কেননা এটি বাংলাদেশের সবচেয়ে বড়…</p>
+                            <button class="btn btn-dark"><a class="text-white" href="{{ route('rangamati_visa_guide') }}">Read More>>>></a></button>
+                          <p class="card-text pt-2"><small class="text-muted ">Last updated 7 mins ago</small></p>
+                        </div>
+                      </div>
                   </div>
                   <div class="col-12 col-md-4">  
                     <div class="card">
@@ -26,10 +35,10 @@
                         <h5>Recent Posts</h5>
                         <hr/>
                             <ol class="list-unstyled">
-                                <li >রাঙামাটি ভ্রমণের প্রয়োজনীয় কিছু তথ্য</li>
+                                <li> <a href="{{ route('rangamati_visa_guide') }}">রাঙামাটি ভ্রমণের প্রয়োজনীয় কিছু তথ্য</a> </li>
+                                <li> <a href="{{ route('thiland_visa_guide') }}">Thailand Visa Guide</a></li>
                                 <li>Singapore Visa Guide</li>
                                 <li>Malaysia Visa Guide</li>
-                                <li>Thailand Visa Guide</li>
                             </ol>
                       </div>
                     </div>

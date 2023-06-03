@@ -13,7 +13,7 @@
   <div id="cards_landscape_wrap-2">
     <div class="container">
       <div class="row">
-        <h2 class="mb-2">Our Servics</h2>
+        <h2>Our Servics</h2>
         <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
           <a href="">
             <div class="card-flyer">
