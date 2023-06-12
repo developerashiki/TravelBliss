@@ -47,7 +47,7 @@
             </li>
 
             <li class="social-icon-item">
-              <a href="https://www.facebook.com/TravelBlissInternational" class="social-icon-link bi-facebook"></a>
+              <a target="_blank" href="https://www.facebook.com/TravelBlissInternational" class="social-icon-link bi-facebook"></a>
             </li>
 
             <li class="social-icon-item">
@@ -55,7 +55,7 @@
             </li>
 
             <li class="social-icon-item">
-              <a href="#" class="social-icon-link bi-youtube"></a>
+              <a target="_blank" href="h" class="social-icon-link bi-youtube"></a>
             </li>
 
             <li class="social-icon-item">
@@ -86,10 +86,9 @@
             <a class="nav-link click-scroll dropdown-toggle" href="#section_5" id="navbarLightDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">About Us
             </a>
             <ul class="dropdown-menu dropdown-menu-light" aria-labelledby="navbarLightDropdownMenuLink">
-              <li><a class="dropdown-item" href="{{ route('ceo') }}">Founder & CEO</a></li>
-
-              <li><a class="dropdown-item" href="{{ route('refund') }}">Refund & Return Policy</a></li>
-              <li><a class="dropdown-item" href="{{ route('condition') }}">Terms & Condition</a></li>
+              <li><a class="dropdown-item" href="">Company Overview</a></li>
+              <li><a class="dropdown-item" href="{{ route('ceo') }}">Message From Founder & CEO</a></li>
+              <li><a class="dropdown-item" href="">Mission & Vision</a></li>
               <li><a class="dropdown-item" href="{{ route('pay') }}">Pay Us</a></li>
             </ul>
           </li>
@@ -135,51 +134,6 @@
 
           <p class="text-center">The company provides direct access to one of the broadest selections of travel products services through its user friendly Web site and serving many different consumer segments.
           </p>
-
-          <ul class="list-unstyled d-flex flex-row justify-content-center">
-            <li>
-              <a class="px-2" href="#!">
-                <i class="fab fa-facebook-square"></i>
-              </a>
-            </li>
-            <li>
-              <a class="px-2" href="#!">
-                <i class="fab fa-instagram"></i>
-              </a>
-            </li>
-            <li>
-              <a class="ps-2" href="#!">
-                <i class="fab fa-youtube"></i>
-              </a>
-            </li>
-          </ul>
-        </div>
-        <!--Grid column-->
-
-        <!--Grid column-->
-        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-          <h5 class="mb-3">Services</h5>
-
-          <ul class="list-unstyled">
-            <li class="mb-2">
-              <a href="{{ route('student_visa') }}">Student Visa</a>
-            </li>
-            <li class="mb-2">
-              <a href="{{ route('schooling_visa') }}">Schooling Visa</a>
-            </li>
-            <li class="mb-2">
-              <a href="{{ route('visa_processing') }}">Visa Processing</a>
-            </li>
-            <li class="mb-2">
-              <a href="{{ route('umrah_visa') }}">Hajj & Umrah Visa</a>
-            </li>
-            <li class="mb-2">
-              <a href="{{ route('rail_ticket') }}">Air Ticket</a>
-            </li>
-            <li class="mb-2">
-              <a href="{{ route('hotel_booking') }}">Hotel Booking</a>
-            </li>
-          </ul>
         </div>
         <!--Grid column-->
 
@@ -189,7 +143,13 @@
 
           <ul class="list-unstyled">
             <li class="mb-2">
-              <a href="{{ route('home') }}">Home</a>
+              <a href="{{ route('refund') }}">Refund & Return Policy</a>
+            </li>
+            <li class="mb-2">
+              <a href="{{ route('condition') }}">Terms & Condition</a>
+            </li>
+            <li class="mb-2">
+              <a href="#">Mission & Vision</a>
             </li>
             <li class="mb-2">
               <a href="{{ route('blog') }}">Blog</a>
@@ -197,14 +157,30 @@
             <li class="mb-2">
               <a href="{{ route('gallary') }}">Gallary</a>
             </li>
+          </ul>
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+          <h5 class="mb-3">Bank Account Info</h5>
+
+          <ul class="list-unstyled">
             <li class="mb-2">
-              <a href="{{ route('umrah_visa') }}">Umrah Visa</a>
+              <p>Account Name: <strong>Travelbliss International</strong><br>
+                A/C No. 1071070000801<br>
+                Routing No. 095262987<br>
+                Bank Name: Estern Bank Ltd.<br>
+                Branch: Mirpur Branch
+              </p>
             </li>
             <li class="mb-2">
-              <a href="{{ route('student_visa') }}">Student Visa</a>
-            </li>
-            <li class="mb-2">
-              <a href="{{ route('contact') }}">Contact</a>
+              <p>Account Name: <strong>Travelbliss International</strong><br>
+                A/C No. 1071070000801<br>
+                Routing No. 095262987<br>
+                Bank Name: United Commercial Bank PLC<br>
+                Branch: Mirpur Branch
+              </p>
             </li>
           </ul>
         </div>
@@ -218,8 +194,7 @@
             <li>
               <p class="d-flex mb-2">
                 <i class="bi-geo-alt me-2"></i>
-                TravelBliss International, M M Complex(4th Floor), Mirpur Saree Egaro Bus Stand, Pallabi, Dhaka-1216.
-                
+                TravelBliss International, M M Complex(4th Floor), Mirpur Saree Egaro Bus Stand, Pallabi, Dhaka-1216. 
               </p>
             </li>
             <li>

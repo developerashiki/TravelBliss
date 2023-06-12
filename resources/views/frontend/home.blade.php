@@ -135,13 +135,12 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-12 col-12 text-center mb-4">
-          <h4>OUR DESTINATIONS</h4>
           <h6>CHOOSE YOUR NEXT DESTINATION</h6>
         </div>
 
         <div class="col-lg-4 col-md-6 col-12 mb-4 mb-lg-0 ">
           <div class="custom-block-wrap">
-            <img src="{{ asset('assets/images/Thailand-Travel-Guide-Hero-1-951x512.jpg') }}" class="custom-block-image img-fluid" alt="" />
+            <img src="{{ asset('assets/images/download.jpg') }}" class="custom-block-image img-fluid " alt="" />
             <div class="custom-block">
               <div class="custom-block-body">
                 <h5>Thailand || 37000 BDT</h5>
@@ -154,7 +153,7 @@
         </div>
         <div class="col-lg-4 col-md-6 col-12 mb-4 mb-lg-0">
           <div class="custom-block-wrap">
-            <img src="{{ asset('assets/images/cat-ba-to-hanoi-via-lan-ha-bay-1024x640.jpg') }}" class="custom-block-image img-fluid" alt="" />
+            <img src="{{ asset('assets/images/aerial-view-golden-bridge-is-lifted-by-two-giant-hands-two-rows-vietnamese-flags-ba-na-hill-danang-vietnam-travel-landscape-concept_479694-1347.avif') }}" class="custom-block-image img-fluid" alt="" />
             <div class="custom-block">
               <div class="custom-block-body">
                 <h5>Vietnam || 37000 BDT</h5>
@@ -167,10 +166,10 @@
         </div>
         <div class="col-lg-4 col-md-6 col-12 mb-4 mb-lg-0">
           <div class="custom-block-wrap">
-            <img src="{{ asset('assets/images/A-journey-through-Singapore.webp') }}"class="custom-block-image img-fluid" alt="" />
+            <img src="{{ asset('assets/images/istockphoto-963093048-612x612.jpg') }}"class="custom-block-image img-fluid" alt="" />
             <div class="custom-block">
               <div class="custom-block-body">
-                <h5>Singapur || 37000 BDT</h5>
+                <h5>Singapore || 37000 BDT</h5>
                 <h6 class="text-success">4 Days Bangkok Saver</h6>
                 <p>Included: Air ticket, Hotel, Breakfast, Tours, Airport transfers</p>
               </div>

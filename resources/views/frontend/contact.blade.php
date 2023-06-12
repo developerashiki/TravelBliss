@@ -33,15 +33,17 @@
     <div class="row">
       <div class="col-lg-4 col-12 ms-auto mb-5 mb-lg-0">
         <div class="contact-info-wrap">
-          <h2>Get in touch</h2>
+          <p class="">Would like to talk?</p>
+          <h4>Contact Details</h4>
 
           <div class="contact-image-wrap d-flex flex-wrap">
-            <img src="{{ asset('assets/images/avatar.png') }}" class="img-fluid avatar-image" alt="" />
+            {{-- <img src="{{ asset('assets/images/avatar.png') }}" class="img-fluid avatar-image" alt="" />
 
             <div class="d-flex flex-column justify-content-center ms-3">
               <p class="mb-0"> Md. Nazmul Islam</p>
               <p class="mb-0"><strong>Executive (Sales & Marketing)</strong></p>
-            </div>
+            </div> --}}
+            <p>If you have a story to share or a question that has not been answered on our website, please get in touch with us via contact details listed below or fill in the form on the right.</p>
           </div>
 
           <div class="contact-info">
@@ -75,7 +77,8 @@
 
         <form method="post" action="{{ route('contact-form') }}" role="form" class="custom-form contact-form">
           @csrf
-          <h2 class="text-center">Contact Us</h2>
+          <h4 class="text-center">Get in Touch
+          </h4>
           <div class="form-group">
             <label for="">Name</label>
             <input type="text" name="name" value="{{ old('name') }}" id="name" class="form-control @error('name') is-invalid @enderror" value="{{ old('name') }}" placeholder="Name" />
@@ -98,7 +101,7 @@
             @enderror
           </div>
           <div class="form-group">
-            <textarea name="message" rows="2" class="form-control  @error('message') is-invalid @enderror" id="message" placeholder="What can we help you?">
+            <textarea name="message" rows="2" class="form-control  @error('message') is-invalid @enderror" id="message" placeholder="Message">
 
             </textarea>
             @error('message')
