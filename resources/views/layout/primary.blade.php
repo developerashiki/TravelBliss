@@ -86,9 +86,9 @@
             <a class="nav-link click-scroll dropdown-toggle" href="#section_5" id="navbarLightDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">About Us
             </a>
             <ul class="dropdown-menu dropdown-menu-light" aria-labelledby="navbarLightDropdownMenuLink">
-              <li><a class="dropdown-item" href="">Company Overview</a></li>
+              <li><a class="dropdown-item" href="{{ route('company_over_view') }}">Company Overview</a></li>
               <li><a class="dropdown-item" href="{{ route('ceo') }}">Message From Founder & CEO</a></li>
-              <li><a class="dropdown-item" href="">Mission & Vision</a></li>
+              <li><a class="dropdown-item" href="{{ route('mission_vision') }}">Mission & Vision</a></li>
               <li><a class="dropdown-item" href="{{ route('pay') }}">Pay Us</a></li>
             </ul>
           </li>
@@ -113,6 +113,9 @@
           </li>
           <li class="nav-item">
             <a class="nav-link click-scroll" href="{{ route('contact') }}">Contact</a>
+          </li>
+           <li class="nav-item">
+            <a class="nav-link click-scroll" href="{{ route('join_with_us') }}">Join With Us</a>
           </li>
         </ul>
       </div>
@@ -149,7 +152,7 @@
               <a href="{{ route('condition') }}">Terms & Condition</a>
             </li>
             <li class="mb-2">
-              <a href="#">Mission & Vision</a>
+              <a href="{{ route('mission_vision') }}">Mission & Vision</a>
             </li>
             <li class="mb-2">
               <a href="{{ route('blog') }}">Blog</a>

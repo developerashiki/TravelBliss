@@ -15,8 +15,7 @@
                 taxes, the same will be intimated and charged to you.
               </li>
               <li>
-                Until the payment is realized in full, the booking is subject to cancellation by the
-                airline or Dynamic Travels without prior notice.
+                Until the payment is realized in full, the booking is subject to cancellation by the airline or TravelBliss International without prior notice.
               </li>
               <li>
                 If the payment is not approved on given credit card number(s), you will be notified as
@@ -28,7 +27,7 @@
                 24 hours of getting this email or product receipt, the former holding priority.
               </li>
               <li>
-                Dynamic Travels is not responsible for any schedule change by the airline after
+                TravelBliss International is not responsible for any schedule change by the airline after
                 issuance of the ticket, but will inform you of the same if informed by the airlines.
                 It is advisable to reconfirm your flight timings 24 hours prior to your flight
                 departure.
@@ -55,7 +54,7 @@
               </li>
               <li>
                 The Frequent flyer miles will be as on the sole discretion of respective airlines.
-                Dynamic Travels.com will not be responsible for any mileage guarantee.
+                travelblissinternational.com will not be responsible for any mileage guarantee.
               </li>
               <li>
                 Infant is defined as a traveler whose age must be under 24 months throughout the
@@ -80,7 +79,7 @@
                 cases where we will request to contact the airlines directly.
               </li>
               <li>
-                In addition to the airlines date change penalty, Dynamic Travels charges a date change
+                In addition to the airlines date change penalty, TravelBliss International charges a date change
                 assistance service charge of per passenger.
               </li>
               <li>
@@ -88,10 +87,10 @@
                 an RAF (Refund Admin Fee) of per passenger per ticket.
               </li>
               <li>
-                Dynamic Travels will charge a service fee of per passenger for all cancellations.
+                TravelBliss International  will charge a service fee of per passenger for all cancellations.
               </li>
               <li>
-                All bookings booked on Dynamic Travels.com are subject to cancellation penalty levied
+                All bookings booked on  travelblissinternational.com are subject to cancellation penalty levied
                 by the airlines.
               </li>
               <li>Refunds will be processed within 15 to 21 business days for e-tickets.</li>
@@ -112,7 +111,7 @@
               </li>
               <li>
                 You are requested to consult consulate/airlines to check the visa requirement for your
-                travel. Dynamic Travels will not be responsible for any visa related information.
+                travel. TravelBliss International will not be responsible for any visa related information.
               </li>
             </ol>
           </div>

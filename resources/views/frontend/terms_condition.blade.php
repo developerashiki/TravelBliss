@@ -18,7 +18,7 @@
         <div>
           <p>
             The following Terms and Conditions from the basis of yours relationship with
-            https://travelblissintl.com. Please read them carefully as they set out both ours and
+            travelblissinternational.com.  Please read them carefully as they set out both ours and
             yours respective right and obligations.
           </p>
         </div>
@@ -55,12 +55,12 @@
         <div>
           <ol>
             <li>
-              Agreement Between You and www.travelblissintl.com. The following terms and
+              Agreement Between You and https://travelblissinternational.com. The following terms and
               conditions (the “Terms and Conditions”) apply to all visitors to or users of this
               Web site. By accessing this Web site, the user acknowledges acceptance of these
               Terms and Conditions. In the case of any violation of these Terms and Conditions,
               TravelBliss International and its subsidiaries, (collectively,
-              “travelblissintl.com”), reserve the right to seek all remedies available by law and
+              “travelblissinternational.com.”), reserve the right to seek all remedies available by law and
               in equity for such violations.
             </li>
             <li>
@@ -68,35 +68,35 @@
               this Web site, including but not limited to all text, logos, designs, graphics,
               images, sounds, information, software, documents, products and services
               (collectively, the “Materials”), and the selection, arrangement and display thereof,
-              are the copyrighted works of travelblissintl.com and/or its vendors or suppliers.
-              All Materials herein and all travelblissintl.com software are proprietary to
+              are the copyrighted works of travelblissinternational.com. and/or its vendors or suppliers.
+              All Materials herein and all travelblissinternational.com.  software are proprietary to
               travelblissintl.com and protected by worldwide copyright and other intellectual
               property laws. Except as stated herein, none of the Materials may be modified,
               copied, reproduced, distributed, republished, downloaded, displayed, sold, compiled,
               posted or transmitted in any form or by any means, including but not limited to,
               electronic, mechanical, photocopying, recording or other means, without the prior
-              express written permission of travelblissintl.com.
+              express written permission of travelblissinternational.com. 
             </li>
             <li>
-              <strong>Limited License: </strong> travelblissintl.com hereby authorizes you to
+              <strong>Limited License: </strong> travelblissinternational.com.  hereby authorizes you to
               view, copy, download and print the Materials available on this Web site, provided
               that: (1) if you are a potential or actual renter, the Materials are used solely for
               personal, non-commercial purposes and if you are a property owner/manager, the
               Materials are used only for the purposes of using the services expressly offered by
-              dynamic.com.bd; (2) the Materials are not modified or redistributed; and (3) all
+              travelblissinternational.com. (2) the Materials are not modified or redistributed; and (3) all
               copyright, trademark, service mark and other proprietary notices are reproduced as
               they appear in any such Materials. Except as expressly provided above, nothing
               contained herein shall be construed as conferring, by implication, estoppels or
               otherwise, any license or right under any patent, trademark or copyright of
-              travelblissintl.com.
+              travelblissinternational.com. 
             </li>
             <li>
               <strong>Trademarks: </strong>The trademarks, trade names and service marks (the
-              “Marks”) displayed on this Web site are the property of travelblissintl.com or other
+              “Marks”) displayed on this Web site are the property of travelblissinternational.com.  or other
               third parties. Users are not permitted to copy or otherwise use these Marks without
-              the prior written consent of dynamic.com.bd or such third party which may own the
-              Mark. The following list of Marks owned by dynamic.com.bd is not exhaustive, and
-              travelblissintl.com may own other Marks not included here: travelblissintl.com.
+              the prior written consent of travelblissinternational.com or such third party which may own the
+              Mark. The following list of Marks owned by travelblissinternational.com. is not exhaustive, and
+              travelblissintl.com may own other Marks not included here: travelblissinternational.com. 
             </li>
             <li>
               <strong>Compliance with Laws; Export Controls:</strong>You acknowledge that the
@@ -133,16 +133,16 @@
             </li>
             <li>
               <strong>Links to Third-Party Web Sites: </strong> This Web site may contain links to
-              Web sites operated by parties other than dynamic.com.bd. Such hyperlinks are
+              Web sites operated by parties other than travelblissinternational.com. Such hyperlinks are
               provided for reference only. travelblissintl.com does not control such Web sites and
-              is not responsible for their contents. travelblissintl.com’s inclusion of hyperlinks
+              is not responsible for their contents. travelblissinternational.com.’s inclusion of hyperlinks
               to such Web sites does not imply any endorsement of the material on such Web sites
               or any association with their operators. If you decide to access any of the third
               party sites linked to this Web site, you do so entirely at your own risk.
             </li>
             <li>
-              <strong>General Disclaimer: </strong> Although dynamic.com.bd has attempted to
-              provide accurate information on the Web site, travelblissintl.com assumes no
+              <strong>General Disclaimer: </strong> Although travelblissinternational.com. has attempted to
+              provide accurate information on the Web site, travelblissinternational.com. assumes no
               responsibility for the accuracy of the information (including fares displayed). All
               information provided on this Web site is provided &quot;as is&quot; with all faults
               without warranty of any kind, either express or implied. travelblissintl.com hereby
